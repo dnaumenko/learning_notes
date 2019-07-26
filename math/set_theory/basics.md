@@ -170,6 +170,36 @@ $$
 (a,b) = \{\{a\}, \{a,b\}\}
 $$
 
+## Relation
+
+Relation could be formulated in terms of pairs in such way that if there is a relation between $a$ and $b$, we assume that there is an ordered pair $(a, b)$. So in Set Theory (even if we don't really know what does the relationship means) we define it as a set of ordered pairs. 
+
+In math notation, a set $R$ is a relation/relationship if each element of R is an ordered pair (i.e. if $z \in R$, then there exists $x$ and $y$ so that $z = (x, y)$).
+
+Sometimes it convinient to write: $x R y$.
+
+Empty set is a relation. To proof, try to find element in $\emptyset$ which is not an ordered pair :).
+
+As we have an ordered pair in relations, so we can project either first element of it or second. There are special names for them:
+
+$$
+dom R = \{x: for some y \in R\}\newline
+ran R = \{y: for some y \in R\}
+$$
+
+dom stands for `domain`, ran stands for `range`.
+
+## Functions
+
+If we have ordered pairs as relations, we can define functions to be such relation that for them domain is one set, and for each element from domain set there exists an unique value. 
+
+In notation, $(x, y) \in f$ means function, if from $(x, z) \in f$ and $(x, y) \in f$, follows that $y = z$ (uniqeness condition re-formulated). 
+
+Functions are so popular, so there is a special syntax for them: $f(x) = y$. It's more popular than $(x, y) \in f$ and $x f y$. The element y called value, x called argument. Also, we can refer to function as mapping, transformation, correspondence or operator.
+
+Usual abbreviation is: $f: x \rightarrow y$.
+
+It's not required that range of function from $X$ to $Y$ was equal to $Y$. It should just map every x uniqually to some element of $Y$. 
 
 ## Axioms
 
