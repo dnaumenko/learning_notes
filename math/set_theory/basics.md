@@ -170,6 +170,8 @@ $$
 (a,b) = \{\{a\}, \{a,b\}\}
 $$
 
+The defition of the _Cartesian_ product is a set of all ordered pairs (x, y) with x in X and y in Y.
+
 ## Relation
 
 Relation could be formulated in terms of pairs in such way that if there is a relation between $a$ and $b$, we assume that there is an ordered pair $(a, b)$. So in Set Theory (even if we don't really know what does the relationship means) we define it as a set of ordered pairs. 
@@ -200,6 +202,19 @@ Functions are so popular, so there is a special syntax for them: $f(x) = y$. It'
 Usual abbreviation is: $f: x \rightarrow y$.
 
 It's not required that range of function from $X$ to $Y$ was equal to $Y$. It should just map every x uniqually to some element of $Y$. 
+
+The set of all functions from $X$ to $Y$ denoted by $Y^X$ (it's a subest of power set $\mathcal{P}(X \times Y)$).
+
+Note that some mathematicians can say $f$ maps $X$ $onto$ $Y$ if range of this funciton equal to $Y$. We can consider a subset of $X$ and call it an image of function (it's a set of elements y of X for which there is exist an x in X). The notation for image is $f(A)$ (you can mistakenly think of it as a function of one value $A$).
+
+The _inclusion map_ (or the _embedding_, or the _injection_) if $f(x) = x$ for each x in $X$ ($X$ should be a subset of $Y$ for this relation). Another name is the _identity map_ of X.
+
+The function $g$ called a _restriction_ of $f$ to $X$ if it maps some subset of $X$ in the same way a $f(x)$. I.e. $g(x)$ is equal to $f(x)$ for some subset X. The $f$ called an _extension_ of $g$ to $Y$. Tradional notation for extension is $g = f|X$.
+
+## Families
+
+If we interested in range of functions more, there exists a special notation for them and it overall similar to sets as we know them by now (e.g. you can have an union/intersection). Family sets is usually used in generalization a notion of the _Cartesian_ product.
+
 
 ## Axioms
 
