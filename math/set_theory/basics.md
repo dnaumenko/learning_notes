@@ -203,7 +203,7 @@ Usual abbreviation is: $f: x \rightarrow y$.
 
 It's not required that range of function from $X$ to $Y$ was equal to $Y$. It should just map every x uniqually to some element of $Y$. 
 
-The set of all functions from $X$ to $Y$ denoted by $Y^X$ (it's a subest of power set $\mathcal{P}(X \times Y)$).
+The set of all functions from $X$ to $Y$ denoted by $Y^X$ (it's a subset of power set $\mathcal{P}(X \times Y)$).
 
 Note that some mathematicians can say $f$ maps $X$ $onto$ $Y$ if range of this funciton equal to $Y$. We can consider a subset of $X$ and call it an image of function (it's a set of elements y of X for which there is exist an x in X). The notation for image is $f(A)$ (you can mistakenly think of it as a function of one value $A$).
 
@@ -211,9 +211,23 @@ The _inclusion map_ (or the _embedding_, or the _injection_) if $f(x) = x$ for e
 
 The function $g$ called a _restriction_ of $f$ to $X$ if it maps some subset of $X$ in the same way a $f(x)$. I.e. $g(x)$ is equal to $f(x)$ for some subset X. The $f$ called an _extension_ of $g$ to $Y$. Tradional notation for extension is $g = f|X$.
 
+Inverse functions (if we simplify, it would be a function with domain and range swapped) are written like this: 
+
+$$
+f^{-1}(B)
+$$
+
+Function composition means that we can do something in one step and it's written usually as:
+
+$$
+g(f(x))\newline
+g \circ f\newline
+gf
+$$
+
 ## Families
 
-If we interested in range of functions more, there exists a special notation for them and it overall similar to sets as we know them by now (e.g. you can have an union/intersection). Family sets is usually used in generalization a notion of the _Cartesian_ product.
+If we interested in range of functions more, there exists a special notation for them and it overall similar to sets as we know them by now (e.g. you can have an union/intersection). Family sets is usually used in generalization of a notion of the _Cartesian_ product.
 
 
 ## Axioms
